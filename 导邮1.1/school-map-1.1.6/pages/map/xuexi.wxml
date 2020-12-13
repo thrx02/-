@@ -1,0 +1,47 @@
+<!--pages/map/xuexi.wxml-->
+<view class="main">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">
+        <text >学习</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view  class="scroll-view_V" scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+          <view id="demo1" class="scroll-view-item demo-text-1">
+<view>1.关于上课点名</view>
+不同老师的点名习惯有差别，有些老师一学期未必点一次，而有些老师经常课上点名或互动。
+（请特别注意那些从不点名的老师，那些老师多半都有你翘一次课，考试就挂科的自信）
+<image src="http://a1.qpic.cn/psc?/V546yTkZ3awoDx20Sh5W2rdF6N4fd3im/bqQfVz5yrrGYSXMvKr.cqXR9WcOyEqlzi1KOmffmcdTzgy5yo83ybux08L8FO5lXswfvy1rmvocKT2OI5lXvr1KkcgH6O8bB2K3zNN8yrpE!/c&ek=1&kp=1&pt=0&bo=LAErAQAAAAABFzc!&tl=3&vuin=837150567&tm=1607598000&sce=60-2-2&rf=0-0"></image>
+
+</view>
+
+
+          <view id="demo2"  class="scroll-view-item demo-text-2">
+            <view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+            <view>2.关于素质选修课</view>
+素质选修课在开学后通过教务系统选课。可以提前通过学校下发的资料对课程有大致了解。多数课程是比较好过关的。一些实用课程比如高数解题技巧，虽然难度大但也格外抢手。如果有心仪的课程，强烈建议蹲点抢课。
+P．s．教务系统这种时候会炸！会炸！会炸！抢课时点进去就不要刷新退出，越刷越慢
+P．p．s．请在选课前看清课程针对的年级，部分课程对年级是有要求的（尤其是分上下的课程）
+<view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+</view>
+          <view id="demo3" class="scroll-view-item demo-text-3"><view>3.关于翘课，有什么后果</view>
+
+翘课被抓到会被扣大量成绩，甚至直接挂科，能不翘就别翘，实在不能上课的，按照老师的要求请假（有些老师不接受直接向他请假，需要辅导员的假条，请特别注意）
+<view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+</view>
+<view id="demo4" class="scroll-view-item demo-text-4"><view>4.关于考试</view>
+
+一些课程不进行考试，只进行考察（结课或学期结束论文，也有个别科会有奇奇怪怪的作业）。一些课程只进行期末考试，一些还会有期中考。不过所有的考试/作业老师都会很早通知，没有猝不及防，只有如期而至。
+<image src="http://a1.qpic.cn/psc?/V546yTkZ3awoDx20Sh5W2rdF6N4fd3im/bqQfVz5yrrGYSXMvKr.cqcJfaYQG6y*CMxuV60LEFyWEdpwpJi.dxLfeZRw57tnLMRZJMS5vhup99U2rWHl8jTim6r9ampMFmA6r*7pH54k!/b&ek=1&kp=1&pt=0&bo=IAMXAgAAAAABFwY!&tl=3&vuin=837150567&tm=1607598000&sce=60-1-1&rf=0-0"></image>
+</view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</view>

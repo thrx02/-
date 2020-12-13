@@ -1,0 +1,62 @@
+/* pages/map/yule.wxss */
+.page-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+.page-section{
+ flex: 1;
+  width: auto;
+  background: rgb(205, 157, 211);
+  margin: 0 0 200px 0;
+  
+}
+.page-section-title{
+  text-align: center;
+ align-self: center;
+ justify-content: center;
+font-size: larger;
+color:white;
+font-style: oblique;}
+
+
+.page-section-spacing {
+  height:200px;
+}
+
+.scroll-view_V {
+  height: auto;
+  width: 100%;
+  background-color: rgb(243, 222, 178);
+  font-size: large;
+  font-family: cursive;
+}
+
+.scroll-view-item {
+  height:500px;
+  width: auto;
+  background-color: rgb(243, 178, 210)e;
+
+  height: fit-content;
+}
+.scroll-view_V #demo1 {
+  background-color: rgb(243, 178, 210);
+  
+}
+
+.scroll-view_V #demo2 {
+  background-color: rgb(255, 228, 244);
+  height: fit-content;
+}
+
+
+.scroll-view_V #demo3 {
+  background-color: rgb(243, 178, 210);
+  height: fit-content;
+}
+.scroll-view_V #demo4 {
+  background-color: rgb(255,228,244);
+  height: fit-content;
+}

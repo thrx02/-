@@ -1,0 +1,36 @@
+<!--pages/map/wenti.wxml-->
+<view class="page" style="background: url('http://a1.qpic.cn/psc?/V14IgW873YqPsJ/ruAMsa53pVQWN7FLK88i5oVzVjIKlKikhfPonmoAeJ0hHwGRPPvPoZrlLzBgbq3.3hokrycmcGSJ7B6s7VhksWlFhsdsnWtmkS4OE4wEC1I!/c&ek=1&kp=1&pt=0&bo=OATRAgAAAAABF98!&tl=1&vuin=1627640975&tm=1607482800&sce=60-2-2&rf=0-0'); background-size: 100% 100%">
+  
+   
+    
+  <view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view><view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+<view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view><view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+<button class="button" bindtap="go2Page1">
+  <text>{{shortName}}学习</text>
+</button>
+<view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+<button class="button" bindtap="go2Page2">
+  <text>生活{{shortName}}</text></button>
+  <view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+  <button class="button" bindtap="go2Page3">
+<text>娱乐{{shortName}}</text></button>
+
+
+
+
+   
+  
+    
+  </view>

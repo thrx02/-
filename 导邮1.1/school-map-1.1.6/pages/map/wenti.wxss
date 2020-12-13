@@ -1,0 +1,32 @@
+/* pages/map/wenti.wxss */
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.button {
+  width: 250rpx;
+  height: 160rpx;
+  margin: 40x;
+  background-color: rgba(131, 191, 240, 0.9);
+  border-radius: 80rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button text {
+  width: 80%;
+  height: fit-content;
+  align-self: center;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: larger;
+  color:white
+}
+

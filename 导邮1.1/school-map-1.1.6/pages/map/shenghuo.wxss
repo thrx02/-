@@ -1,0 +1,66 @@
+/* pages/map/shenghuo.wxss */
+.page-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+.page-section{
+ flex: 1;
+  width: auto;
+  background: rgb(119, 216, 144);
+  margin: 0 0 20px 0;
+  
+}
+.page-section-title{
+  text-align: center;
+ align-self: center;
+ justify-content: center;
+ font-size: larger;
+ color:white;
+ font-style: oblique;}
+
+
+.page-section-spacing {
+  height:200px;
+}
+
+.scroll-view_V {
+  height: auto;
+  width: 100%;
+  background-color: rgb(178, 243, 229);
+  font-weight: 400;
+  font-size: large;
+  font-family: cursive;
+}
+
+.scroll-view-item {
+  height:500px;
+  width: auto;
+  background-color: rgb(154, 241, 227)e;
+
+  height: fit-content;
+}
+.scroll-view_V #demo1 {
+  background-color: rgb(150,238,184);
+}
+
+.scroll-view_V #demo2 {
+  background-color: rgb(209, 250, 229);
+  height: fit-content;
+}
+
+
+.scroll-view_V #demo3 {
+  background-color: rgb(150, 238, 184);
+  height: fit-content;
+}
+.scroll-view_V #demo4 {
+  background-color: rgb(209,250,229);
+  height: fit-content;
+}
+.scroll-view_V #demo5 {
+  background-color:rgb(150, 238, 184);
+  height: fit-content;
+}

@@ -1,0 +1,47 @@
+<!--pages/map/shenghuo.wxml-->
+<view class="main">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-title">
+        <text >生活</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view  class="scroll-view_V" scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+          <view id="demo1" class="scroll-view-item demo-text-1">
+<view>1.宿舍环境是怎样的？</view>
+标准上床下桌四人间，配独立阳台和卫生间。宿舍每层有淋浴间，热水间，也有公共卫生间和水房。不同时间建的宿舍可能会有细节上的差异，但整体环境还是不错的。
+<view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+</view>
+          <view id="demo2"  class="scroll-view-item demo-text-2"><view>2，	为什么我的标准床垫不够长(＃°Д°)。</view>
+          宿舍里有一部分床是长于标准床的。如果你发现自己的标准床垫不够长，不是床垫的问题。不介意的可以正常铺床，介意的可以买一块用来加长床垫的小床垫（开学时学校附近可能有卖的）。此外，网上买的蚊帐等大小可能也会小。
+          <view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+</view>
+          <view id="demo3" class="scroll-view-item demo-text-3"><view>3.	宿舍有什么是不让用的</view>
+
+          全国统一的大功率电器比如电吹风，卷发棒，电磁炉等。（电吹风可以去一楼宿管的插排哪里用）。床帘也是不让用的，但蚊帐可以，区分标准是从外面能不能看见里面的人。（宿管老师原话：你看看你们这个床帘，啊↗，万一你们在里面出什么事情，猝死什么的，你舍友都看不见不知道，啊↗，这能行吗(￢︿̫̿￢)）
+          <view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+</view>
+<view id="demo4" class="scroll-view-item demo-text-4"><view>4.	宿舍查寝/封楼</view>
+
+宿舍要求是在晚上10点前回宿舍，如果10点以后要进出请提前联系辅导员。
+有时辅导员回来查寝，就是看看你们在不在，莫慌。有些辅导员查寝会提前通知。
+<view>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>
+</view>
+</view>
+<view id="demo5" class="scroll-view-item demo-text-5"><view>5.	关于宿舍卫生</view>
+
+宿管老师一星期左右会查一次卫生，会有评分。另外学校时不时会举办一些卫生评比活动，评分高会有学分赚，这种时候你们就需要大扫除了（毕竟谁会跟学分过不去呢(￣▽￣)”）
+<image src="http://a1.qpic.cn/psc?/V546yTkZ3awoDx20Sh5W2rdF6N4fd3im/bqQfVz5yrrGYSXMvKr.cqQDOHRtBaWsYBDm7Wyt9oWC4HVVnJaDfkpwo.UnJvkENtnKgLOrTWGd2S6X4ZRH*flmhV9Vkjz8s4ivgeckkqyA!/c&ek=1&kp=1&pt=0&bo=zgDCAAAAAAABFzw!&tl=3&vuin=837150567&tm=1607598000&sce=60-2-2&rf=0-0"></image>
+</view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</view>
